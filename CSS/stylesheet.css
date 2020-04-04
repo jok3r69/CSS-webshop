@@ -23,7 +23,7 @@ body {
 
 .description {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .description > p{
@@ -33,7 +33,7 @@ body {
 
 .item-name{
      display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
  }
 
 main > div > img {
@@ -45,11 +45,8 @@ main > div > img {
  }
 
 .like {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    display: flex;
+    justify-content: space-around;
     }
 
 .star{
